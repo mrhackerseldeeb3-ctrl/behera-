@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  /* تحديد مسار الصورة */
+  background-image: url("Green farm.jpeg"); 
+  
+  /* جعل الصورة ثابتة ولا تتحرك مع التمرير */
+  background-attachment: fixed; 
+  
+  /* ضبط الصورة لتغطي الشاشة بالكامل */
+  background-size: cover; 
+  
+  /* تمركز الصورة في المنتصف */
+  background-position: center; 
+  
+  /* منع تكرار الصورة */
+  background-repeat: no-repeat; 
+  
+  /* اختياري: لضمان عدم وجود هوامش بيضاء حول الصفحة */
+  margin: 0; 
+  padding: 0; 
+}
+
+
+h1 {
+    color: #021227;
+    margin-top: 20px;
+}
+
+p {
+    max-width: 600px;
+    margin: 20px auto;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #0d0367cd;
+}
+
+h2 {
+    color: #a4a14d;
+    margin-top: 10px;
+}
+
+ul {
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+img.logo {
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+}
+
+a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #2f6ab1;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.content-box {
+  background-color: white; /* جعل لون خلفية المربع أبيض */
+  width: 80%;              /* تحديد عرض المربع بالنسبة للشاشة */
+  max-width: 500px;        /* أقصى عرض للمربع */
+  margin: 20px auto;       /* وضع المربع في منتصف الصفحة */
+  padding: 20px;           /* مسافة داخلية بين النص وحواف المربع */
+  border-radius: 10px;     /* جعل حواف المربع منحنية (دائرية القليل) */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* إضافة ظل خفيف خلف المربع */
+  text-align: center;      /* جعل النص في منتصف المربع */
+}
+
+.content-box h1 {
+  color: #333;             /* تغيير لون النص ليصبح واضحاً داخل الخلفية البيضاء */
+  margin: 0;
+}
